@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*Golobal style start*/
+
+.button_style{
+    font-size: 18px;
+    font-weight: 700px;
+    background-color: #db5456;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    padding: 13px 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+/*Golobal style end*/
+
+
+/* header style start */
+.header_section{
+    padding: 80px 120px;
+    height: 600px;
+}
+
+.header_section .left{
+    float: left;
+    width: 50%;
+}
+.header_section .left h1{
+    font-size: 80px;
+}
+.header_section .left h1 span{
+    color: #db5456;
+    font-size: 100px;
+}
+.header_section .left p{
+    font-size: 22px;
+    line-height: 35px;
+
+}
+
+.header_section .right{
+    float: right;
+    width: 50%;
+}
+.header_section .right img{
+    border-radius: 50%;
+    width: 90%;
+}
+/* header style end */
+
+/*breackfast style start*/
+
+.breackfast_section{
+    height: 660px;
+    padding: 80px 120px;
+    background-color: #eee;
+}
+
+.card_container{
+    float: left;
+    width: 30%;
+}
+.breakfast_card{
+    width: 350px;
+    background-color: white;
+    height: 400px;
+    padding: 40px;
+    margin: 50px 0 0 50px;
+    position: absolute;
+}
+.breakfast_card h2{
+    font-size: 35px;
+}
+.breakfast_card p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+.breackfast_img{
+    float: right;
+    width: 70%;
+}
+.breackfast_img img{
+    width: 100%;
+    height: 500px;
+
+}
+/*breackfast style end*/
+
+/*fast food style start*/
+
+.fast_food_section{
+    background-image: url(./img/fastfood.jpg);
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.fast_food_contant{
+    padding: 200px 120px;
+}
+.fast_food_contant p{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fast_food_contant h1{
+    font-size: 90px;
+}
+/*fast food style end*/
+
+/*delivery_section style start*/
+
+.delivery_section{
+    padding: 80px 120px;
+    height: 660px;
+}
+.delivery_section .left{
+    float: left;
+    width: 50%;
+}
+.delivery_section .left img{
+    border-radius: 50%;
+    width: 90%;
+    margin-left: 56px;
+}
+
+.delivery_man_card{
+    float: right;
+    width: 50%;
+}
+.delivery_man_card .right{
+    height: 500px;
+    background-color: #eee;
+    padding: 40px 60px;
+    
+}
+.right h1{
+    margin-top: 35px;
+    font-size: 35px;
+}
+.right p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+/*delivery_section style end*/
+
+/*footer section style start*/
+
+.footer_section{
+    background-color: #000;
+    color: white;
+    height: 660px;
+    padding: 80px 120px;
+}
+.footer_img{
+    float: left;
+    width: 40%;
+}
+.footer_img img{
+    width: 100%;
+    height: 500px;
+}
+.footer_content{
+    padding: 80px;
+    text-align: center;
+    width: 60%;
+    float: right;
+}
+.footer_content .titel{
+    font-size: 24px;
+    font-weight: 700px;
+}
+.footer_content form input{
+    padding: 20px;
+    width: 250px;
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+}
+.submit_btn{
+    border-radius: 0px;
+}
+.addres{
+    margin-top: 40px;
+}
+.addres h3{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.addres ul li{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    list-style: none;
+}
+/*footer section style end*/
+
